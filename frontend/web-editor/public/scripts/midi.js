@@ -1,3 +1,44 @@
+
+/// Remove startup Popup
+
+console.log("LOADDDED AF")
+
+// Find the div with the ID "modal"
+const modalDiv = document.getElementById('modal');
+
+// Check if the div exists
+if (modalDiv) {
+  // Remove the div from its parent node
+  modalDiv.parentNode.removeChild(modalDiv);
+  console.log('Div with ID "modal" has been removed.');
+} else {
+  console.log('No div with ID "modal" found.');
+}
+
+
+/// make the code invisible
+
+// Find the div with the class "codeMirror"
+const codeMirrorDiv = document.querySelector('.codeMirror');
+
+// Check if the div exists
+if (codeMirrorDiv) {
+  // Modify the style directly to set opacity to 0
+  codeMirrorDiv.style.transition = 'opacity 1s'; // Update or set the transition
+  codeMirrorDiv.style.opacity = '0';            // Set the opacity to 0
+
+  console.log('Updated style:', codeMirrorDiv.style.cssText);
+} else {
+  console.log('No div with class "codeMirror" found.');
+}
+
+
+/// Hide curser
+
+document.body.style.cursor = 'none';
+console.log('Cursor is now hidden.'); 
+
+
 // register WebMIDI
 navigator.requestMIDIAccess()
     .then(onMIDISuccess, onMIDIFailure);
