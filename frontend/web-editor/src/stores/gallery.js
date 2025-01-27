@@ -11,6 +11,7 @@ class Gallery {
     this.current = null
     this.code = null
     this.exampleIndex = null
+    this.appCounter = 0
 
     // request.get('/sketches').end((err, res) => {
     //   console.log('got sketches', res.text, err)
@@ -175,7 +176,6 @@ ${code}
   }
 
   setRandomSketch() {
-    console.log("RANDOWMWMDMWDMWMDMDWMD")
     // if there are sketches, set code from sketch, otherwise generate random
     //console.log("examples length", this.examples, this.exampleIndex)
     if(this.examples.length > 0) {
@@ -295,6 +295,13 @@ ${code}
     var sketches =  this.examples.filter((sketch) => sketch.sketch_id === id)
     if(sketches.length <= 0) sketches = this.sketches.filter((sketch) => sketch.sketch_id === id)
     return sketches[0]
+  }
+
+  setNextApp() {
+
+
+    this.setSketch(sketch)
+
   }
 }
 

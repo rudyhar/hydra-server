@@ -114,6 +114,7 @@ module.exports = function store(state, emitter) {
 
   emitter.on('editor:nextApp', () => {
     const editor = state.editor.editor
+    sketches.setNextApp()
     clearAll()
     console.log("RANDOMM")
 
