@@ -478,24 +478,24 @@ module.exports = PatchBay
 },{"events":56,"inherits":131,"simple-peer":212,"socket.io-client":231}],5:[function(require,module,exports){
 module.exports=[
   {
-  "sketch_id": "app1",
+  "sketch_id": "0",
   "code": "JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEFzMC5pbml0Q2FtKCklMEFmcmVxJTIwJTNEJTIwKCklMjAlM0QlM0UlMjBjYyU1QjElNUQlMjAqJTIwKDEwMDAwMCUyMCUyRiUyMDEyNyklMjAlMkIlMjAxJTBBY29uc29sZS5sb2coZnJlcSklMEFvc2MoZnJlcSklMEElMjAlMjAubW9kdWxhdGUobzAlMkMlMjAoKSUyMCUzRCUzRSUyMGNjJTVCMiU1RCklMEElMjAlMjAub3V0KG8wKSUwQWNvbnNvbGUubG9nKG1vdXNlLngpJTBBJTBBJTBBc3JjKHMwKSUwQSUyMCUyMC5tb2R1bGF0ZShvMCUyQyUyMCgpJTIwJTNEJTNFJTIwJTIwY2MlNUI0JTVEKSUwQSUyMCUyMC5vdXQobzEpJTBBcmVuZGVyKG8xKSUyMCUwQQ=="
   },
   {
-  "sketch_id": "app2",
+  "sketch_id": "1",
   "code": "czAuaW5pdENhbSgpJTBBb2Zmc2V0JTIwJTNEJTIwMTAwJTBBc3JjKHMwKSUwQSUyMCUyMC5tb2R1bGF0ZVBpeGVsYXRlKG8wJTJDKCklMjAlM0QlM0UlMjBjYyU1QjIlNUQqMTAwMCUyMC0lMjBvZmZzZXQlMkMoKSUyMCUzRCUzRSUyMGNjJTVCMSU1RCoxMDAwJTIwLSUyMG9mZnNldCklMEElMjAlMjAubW9kdWxhdGUobzAlMkMlMjAoKSUyMCUzRCUzRSUyMGNjJTVCMyU1RCklMEElMjAlMjAuc2NhbGUoKCklMjAlM0QlM0VjYyU1QjQlNUQlMkIxKSUwQSUyMCUyMC5vdXQobzApJTBBJTBB"
   },
   {
-  "sketch_id": "app3",
-  "code": ""
+  "sketch_id": "2",
+  "code": "czAuaW5pdENhbSgpJTBBc3JjKG8wKSUwQSUyMCUyMC5jb250cmFzdCgoKSUzRCUzRWNjJTVCMSU1RCklMEElMjAlMjAuc2NhbGUoKCklM0QlM0VjYyU1QjQlNUQqMC4wMSUyMCUyQiUyMDEpJTBBJTIwJTIwLmxheWVyKCUwQSUyMCUyMHNyYyhzMCkuaW52ZXJ0KCkubHVtYSgoKSUzRCUzRWNjJTVCMyU1RCkuY29sb3JhbWEoKCklM0QlM0VjYyU1QjIlNUQpJTBBJTIwJTIwJTA5LmludmVydCgpJTBBJTIwJTIwKSUwQSUyMCUyMC5vdXQoKSUwQXJlbmRlcihvMCklMEElMEE="
   },
   {
-  "sketch_id": "app4",
-  "code": ""
+  "sketch_id": "3",
+  "code": "czAuaW5pdENhbSgpJTBBc3JjKHMwKSUwQSUyMCUyMC5zYXR1cmF0ZSgoKSUzRCUzRWNjJTVCNCU1RCoyKSUwQSUyMCUyMC5jb250cmFzdCgxLjMpJTBBJTIwJTIwLmxheWVyKHNyYyhvMCklMEElMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAubWFzayhzaGFwZSg0JTJDMikuc2NhbGUoKCklM0QlM0VjYyU1QjElNUQlMkMoKSUzRCUzRWNjJTVCMSU1RCkuc2Nyb2xsWCgoKSUzRCUzRWNjJTVCMiU1RCkpJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwLnNjcm9sbFgoMC4wMDEpJTBBJTIwJTIwJTIwKSUwQSUyMCUyMC5tb2R1bGF0ZShvMCUyQyUyMCgpJTNEJTNFY2MlNUIzJTVEKjAuMDAxKSUwQSUyMCUyMC5vdXQobzAp"
   },
   {
-  "sketch_id": "app5",
-  "code": ""
+  "sketch_id": "4",
+  "code": "czAuaW5pdENhbSgpJTBBc3JjKHMwKSUwQSUyMCUyMCUyMCUyMC5tb2R1bGF0ZShvMSUyQyUyMCgpJTIwJTNEJTNFJTIwJTIwY2MlNUIxJTVEKSUwQSUyMCUyMCUyMCUyMC5zYXR1cmF0ZSgoKSUzRCUzRWNjJTVCMyU1RCoxMCklMEElMjAlMjAlMjAlMjAubHVtYSgoKSUzRCUzRWNjJTVCNCU1RCklMEElMjAlMjAlMjAlMjAlMjAlMjAubW9kdWxhdGUobzElMkMlMjAoKSUyMCUzRCUzRSUyMCUyME1hdGguYWJzKDEtY2MlNUIyJTVEKSklMEElMjAlMjAlMjAlMjAub3V0KG8xKSUwQXJlbmRlcihvMSklMjA="
   }
 ]
 
@@ -800,10 +800,11 @@ ${code}
   }
 
   setNextApp() {
-
-
-    this.setSketch(sketch)
-
+    this.appCounter += 1;
+    this.appCounter === 5 ? (this.appCounter = 0): null;
+    var indexStr = this.appCounter.toString()
+    var sketches  = this.examples.filter((sketch) => sketch.sketch_id === indexStr)
+    this.setSketch(sketches[0])
   }
 }
 
@@ -1027,8 +1028,10 @@ module.exports = function store(state, emitter) {
 
   emitter.on('editor:nextApp', () => {
     const editor = state.editor.editor
-    sketches.setNextApp()
     clearAll()
+    sketches.setNextApp()
+    editor.setValue(sketches.code)
+    repl.eval(editor.getValue())
     console.log("RANDOMM")
 
   })
@@ -1285,10 +1288,10 @@ module.exports = class Editor extends EventEmitter {
     //   this.hide()
     // }
 
-    // window.addEventListener('keydown', () => {
-    //   console.log('Key pressed: setting a random sketch');
-    //   this.emit("editor:nextApp")
-    // });
+    window.addEventListener('keydown', () => {
+      console.log('Key pressed: setting a random sketch');
+      this.emit("editor:nextApp")
+    });
 
 
 

@@ -298,10 +298,11 @@ ${code}
   }
 
   setNextApp() {
-
-
-    this.setSketch(sketch)
-
+    this.appCounter += 1;
+    this.appCounter === 5 ? (this.appCounter = 0): null;
+    var indexStr = this.appCounter.toString()
+    var sketches  = this.examples.filter((sketch) => sketch.sketch_id === indexStr)
+    this.setSketch(sketches[0])
   }
 }
 
