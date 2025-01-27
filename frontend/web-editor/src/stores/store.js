@@ -102,12 +102,21 @@ module.exports = function store(state, emitter) {
     })
   })
 
+  // THIS IS THE CODE THAT CONTROLS THE RANDOMIZE
+
   emitter.on('gallery:showExample', () => {
     const editor = state.editor.editor
     clearAll()
     sketches.setRandomSketch()
     editor.setValue(sketches.code)
     repl.eval(editor.getValue())
+  })
+
+  emitter.on('editor:nextApp', () => {
+    const editor = state.editor.editor
+    clearAll()
+    console.log("RANDOMM")
+
   })
 
   emitter.on('show confirmation', function (count) {

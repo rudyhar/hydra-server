@@ -31,6 +31,9 @@ class Gallery {
     this.setRandomSketch = this.setRandomSketch.bind(this)
   }
 
+  // Add keypress handling for setting random sketch
+
+
   clear() {
     this.current = null
     this.code = null
@@ -172,6 +175,7 @@ ${code}
   }
 
   setRandomSketch() {
+    console.log("RANDOWMWMDMWDMWMDMDWMD")
     // if there are sketches, set code from sketch, otherwise generate random
     //console.log("examples length", this.examples, this.exampleIndex)
     if(this.examples.length > 0) {
@@ -247,6 +251,7 @@ ${code}
     }
 
     console.log('saving in gallery', query)
+    
     request
       .post('/sketch')
       // .send({

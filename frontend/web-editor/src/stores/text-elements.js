@@ -3,7 +3,7 @@ module.exports = {
         translation: {
             'language-name': 'english',
             toolbar: {
-                run: "Run all code (ctrl+shift+enter)",
+                run: "Run all codeeeee (ctrl+shift+enter)",
                 upload: "upload to gallery",
                 clear: "clear all",
                 shuffle: "show random sketch",

@@ -66,6 +66,14 @@ module.exports = class Editor extends EventEmitter {
     // if (showCode === "false") {
     //   this.hide()
     // }
+
+    window.addEventListener('keydown', () => {
+      console.log('Key pressed: setting a random sketch');
+      this.emit("editor:nextApp")
+    });
+
+
+
   }
 
   clear() {
