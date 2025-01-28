@@ -11,7 +11,7 @@ const keymaps = require('./keymaps.js')
 const Mutator = require('./randomizer/Mutator.js');
 const beautify_js = require('js-beautify').js_beautify
 
-var isShowing = true
+var isShowing = false
 
 
 module.exports = class Editor extends EventEmitter {

@@ -917,8 +917,8 @@ const repl = require('../views/editor/repl.js')
 
 
 module.exports = function store(state, emitter) {
-  state.showInfo = true
-  state.showUI = true
+  state.showInfo = false
+  state.showUI = false
 
  let sketches
 
@@ -930,7 +930,7 @@ module.exports = function store(state, emitter) {
       if(sketchFromURL) {
         state.showInfo = false
       } else {
-        state.showInfo = true
+        state.showInfo = false
       }
       emitter.emit('render')
       // @todo create gallery store
@@ -1232,7 +1232,7 @@ const keymaps = require('./keymaps.js')
 const Mutator = require('./randomizer/Mutator.js');
 const beautify_js = require('js-beautify').js_beautify
 
-var isShowing = true
+var isShowing = false
 
 
 module.exports = class Editor extends EventEmitter {
