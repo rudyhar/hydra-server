@@ -299,7 +299,7 @@ ${code}
 
   setNextApp() {
     this.appCounter += 1;
-    this.appCounter === 6 ? (this.appCounter = 0): null;
+    this.appCounter === 7 ? (this.appCounter = 0): null;
     var indexStr = this.appCounter.toString()
     var sketches  = this.examples.filter((sketch) => sketch.sketch_id === indexStr)
     this.setSketch(sketches[0])
